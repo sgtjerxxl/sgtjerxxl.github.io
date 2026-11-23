@@ -5,53 +5,56 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lloyd Jeriel Parayno — Video Editor for Paid Social &amp; AI Ads</title>
 <meta name="description" content="Lloyd Jeriel Parayno edits short-form video ads for brands, combining direct-response storytelling, motion graphics, and AI-assisted production.">
-<meta name="theme-color" content="#07090A">
+<meta name="theme-color" content="#0A0B0B">
 <meta property="og:title" content="Lloyd Jeriel Parayno — Video Editor for Paid Social & AI Ads">
 <meta property="og:description" content="Short-form video ads, UGC and AI-assisted production for brands.">
 <meta property="og:image" content="https://sgtjerxxl.github.io/media/reel.jpg">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232DD4CF'/%3E%3Cstop offset='1' stop-color='%23FF6A2B'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%2307090A'/%3E%3Cpath d='M20 14 L50 32 L20 50 Z' fill='url(%23g)'/%3E%3Cpath d='M29 10 L37 54' stroke='%2307090A' stroke-width='5'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232DD4CF'/%3E%3Cstop offset='1' stop-color='%23FF6A2B'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%230A0B0B'/%3E%3Cpath d='M20 14 L50 32 L20 50 Z' fill='url(%23g)'/%3E%3Cpath d='M29 10 L37 54' stroke='%230A0B0B' stroke-width='5'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders:wght@700;800;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&display=swap">
 <script>
 (function () {
   var seen = false;
-  try { seen = sessionStorage.getItem('ljp-reveal-3') === '1'; } catch (e) {}
+  try { seen = sessionStorage.getItem('ljp-reveal-5') === '1'; } catch (e) {}
   if (!seen && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('reveal-pending');
 })();
 </script>
 <style>
 /*
-  VOICE: confident, cinematic, few words. The work does the talking.
-  IDEA: an edit bay at night: a phone rising into frame under a lit monitor glow.
-  PICTURE: the phone, centred, playing the hook reel; a slow teal/orange light field with film grain behind everything.
-  COLOUR + TYPE: near-black, teal #2DD4CF and orange #FF6A2B as light (not fills); Archivo condensed caps for display, Archivo for text.
-  LAYOUT: centred hero, lead project, 2+3 bento grid, hidden archive, about, contact.
+  VOICE: confident, cinematic, studio-grade; few words, big numbers.
+  IDEA: an editor's night session lit by teal and orange monitor light.
+  PICTURE: Lloyd's portrait behind a giant headline; then a phone rising into frame playing the hook reel.
+  COLOUR + TYPE: warm near-black; orange #FF6A2B lead, teal #2DD4CF support. Big Shoulders Display caps + Instrument Serif italic + Inter Tight.
+  LAYOUT: portrait hero, reel stage, project carousel, the editor, reach, brands, services, archive, contact.
 */
 :root {
-  --bg: #07090A;
-  --surface: #111416;
-  --surface-2: #1A1E20;
-  --line: rgba(255,255,255,.09);
-  --text: #F3F1EC;
-  --text-2: #A2A6A6;
-  --text-soft: #D7D6D1;
+  --bg: #0A0B0B;
+  --card-line: rgba(255,255,255,.1);
+  --line: rgba(255,255,255,.08);
+  --text: #F4F1EC;
+  --text-2: #A7A6A2;
+  --text-soft: #DAD7D1;
   --teal: #2DD4CF;
   --orange: #FF6A2B;
-  --accent: var(--orange);
+  --peach: #FFB088;
   --ease-out: cubic-bezier(0.2, 0, 0, 1);
-  --radius: 14px;
+  --radius: 18px;
   --gutter: 40px;
   --page-max: 1320px;
-  --head-h: 68px;
+  --head-h: 70px;
+  --display: "Big Shoulders", "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --serif: "Instrument Serif", Georgia, "Times New Roman", serif;
   color-scheme: dark;
 }
-@media (max-width: 720px) { :root { --gutter: 20px; --head-h: 58px; } }
+@media (max-width: 720px) { :root { --gutter: 20px; --head-h: 60px; } }
 *, *::before, *::after { box-sizing: border-box; }
 html { overflow-x: clip; background: var(--bg); scroll-padding-top: calc(var(--head-h) + 12px); }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 html.player-open { overflow: hidden; }
-body { margin: 0; background: transparent; color: var(--text); font-family: "Archivo", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size: 16px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+body { margin: 0; color: var(--text); font-family: "Inter Tight", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size: 16px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
 img, video { max-width: 100%; display: block; }
 a { color: inherit; }
 button { font: inherit; }
@@ -61,80 +64,123 @@ button { font: inherit; }
 .skip { position: absolute; left: -9999px; top: 8px; z-index: 50; background: var(--orange); color: #000; padding: 10px 14px; border-radius: 8px; }
 .skip:focus { left: 8px; }
 
-/* ---------- Light field + grain (motion detail 2) ---------- */
+/* Light field + grain */
 .field { position: fixed; inset: 0; z-index: -1; overflow: hidden; background: var(--bg); pointer-events: none; }
 .blob { position: absolute; border-radius: 50%; filter: blur(90px); will-change: transform; }
-.blob.b1 { width: 62vmax; height: 46vmax; left: -18vmax; top: -22vmax; background: radial-gradient(closest-side, rgba(45,212,207,.55), rgba(45,212,207,0)); animation: drift1 38s ease-in-out infinite alternate; }
-.blob.b2 { width: 64vmax; height: 48vmax; right: -22vmax; bottom: -26vmax; background: radial-gradient(closest-side, rgba(255,106,43,.5), rgba(255,106,43,0)); animation: drift2 44s ease-in-out infinite alternate; }
-.blob.b3 { width: 40vmax; height: 30vmax; right: -6vmax; top: -12vmax; background: radial-gradient(closest-side, rgba(45,212,207,.28), rgba(45,212,207,0)); animation: drift3 52s ease-in-out infinite alternate; }
-.blob.b4 { width: 46vmax; height: 30vmax; left: 10vmax; bottom: -20vmax; background: radial-gradient(closest-side, rgba(255,106,43,.22), rgba(255,106,43,0)); animation: drift1 60s ease-in-out infinite alternate-reverse; }
-.field::after { content: ""; position: absolute; inset: 0; background: radial-gradient(120% 90% at 50% 40%, rgba(7,9,10,0) 0%, rgba(7,9,10,.55) 70%, rgba(7,9,10,.85) 100%); }
+.blob.b1 { width: 62vmax; height: 46vmax; left: -18vmax; top: -22vmax; background: radial-gradient(closest-side, rgba(45,212,207,.5), rgba(45,212,207,0)); animation: drift1 38s ease-in-out infinite alternate; }
+.blob.b2 { width: 66vmax; height: 50vmax; right: -22vmax; bottom: -26vmax; background: radial-gradient(closest-side, rgba(255,106,43,.55), rgba(255,106,43,0)); animation: drift2 44s ease-in-out infinite alternate; }
+.blob.b3 { width: 40vmax; height: 30vmax; right: -6vmax; top: -12vmax; background: radial-gradient(closest-side, rgba(255,140,80,.3), rgba(255,140,80,0)); animation: drift3 52s ease-in-out infinite alternate; }
+.blob.b4 { width: 46vmax; height: 30vmax; left: 10vmax; bottom: -20vmax; background: radial-gradient(closest-side, rgba(45,212,207,.22), rgba(45,212,207,0)); animation: drift1 60s ease-in-out infinite alternate-reverse; }
+.field::after { content: ""; position: absolute; inset: 0; background: radial-gradient(120% 90% at 50% 40%, rgba(10,11,11,0) 0%, rgba(10,11,11,.5) 70%, rgba(10,11,11,.85) 100%); }
 @keyframes drift1 { to { transform: translate3d(14vmax, 10vmax, 0) scale(1.15); } }
 @keyframes drift2 { to { transform: translate3d(-16vmax, -8vmax, 0) scale(1.1); } }
 @keyframes drift3 { to { transform: translate3d(-12vmax, 14vmax, 0) scale(.9); } }
-.grain { position: fixed; inset: -50%; z-index: -1; pointer-events: none; opacity: .13; mix-blend-mode: overlay;
+.grain { position: fixed; inset: -50%; z-index: 30; pointer-events: none; opacity: .09; mix-blend-mode: overlay;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   animation: grain 1s steps(6) infinite; }
+html.player-open .grain { display: none; }
 @keyframes grain { 0%{transform:translate(0,0)} 20%{transform:translate(-3%,2%)} 40%{transform:translate(2%,-3%)} 60%{transform:translate(-2%,-1%)} 80%{transform:translate(3%,3%)} 100%{transform:translate(0,0)} }
 @media (prefers-reduced-motion: reduce) { .field .blob, .grain { animation: none; } }
 
-/* ---------- Header ---------- */
-.site-head { position: sticky; top: 0; z-index: 20; background: rgba(7,9,10,.55); -webkit-backdrop-filter: blur(16px) saturate(1.2); backdrop-filter: blur(16px) saturate(1.2); border-bottom: 1px solid var(--line); }
-.site-head .wrap { height: var(--head-h); display: flex; align-items: center; justify-content: space-between; gap: 20px; }
-.brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; white-space: nowrap; }
-.brand svg { width: 30px; height: 30px; flex: none; }
-.brand b { font-weight: 700; font-stretch: 80%; font-size: 19px; letter-spacing: .005em; }
-.site-nav { display: flex; align-items: center; gap: 28px; font-size: 15px; }
-.nav-link { color: var(--text-2); text-decoration: none; padding: 12px 0; }
-.nav-link:hover { color: var(--text); }
-@media (max-width: 560px) { .nav-link.hide-sm { display: none; } .site-nav { gap: 16px; } .brand b { font-size: 16px; } }
-@media (max-width: 420px) { .brand b { display: none; } }
+/* Type system */
+.pill { display: inline-flex; align-items: center; gap: 8px; height: 28px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--card-line); background: rgba(10,11,11,.35); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--text-soft); }
+.pill i { width: 6px; height: 6px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 10px var(--orange); }
+.display { margin: 0; font-family: var(--display); font-weight: 800; text-transform: uppercase; line-height: .86; letter-spacing: -.005em; }
+.serif { font-family: var(--serif); font-style: italic; font-weight: 400; text-transform: none; letter-spacing: -.01em; background: linear-gradient(95deg, var(--orange), var(--peach) 70%); -webkit-background-clip: text; background-clip: text; color: transparent; padding-right: .06em; }
+.sec-intro { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 18px; margin-bottom: 52px; }
+.sec-intro h2 { font-size: clamp(52px, 8vw, 120px); }
+.sec-intro h2 .serif { display: block; font-size: .72em; line-height: 1; margin-top: .06em; }
+.sec-intro p { margin: 0; max-width: 56ch; color: var(--text-soft); font-size: 17px; }
+section.block { padding-block: 120px; }
+@media (max-width: 720px) { section.block { padding-block: 80px; } .sec-intro { margin-bottom: 36px; } }
 
-/* ---------- Buttons ---------- */
-.btn { height: 50px; padding: 0 22px; border-radius: 999px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; font: 600 15px/1 "Archivo", system-ui, sans-serif; text-decoration: none; border: 1px solid transparent; cursor: pointer; white-space: nowrap; transition: background-color .2s, border-color .2s, transform .2s var(--ease-out); }
+/* Header */
+.site-head { position: fixed; top: 0; left: 0; right: 0; z-index: 20; transition: background-color .3s, border-color .3s; border-bottom: 1px solid transparent; }
+.site-head.scrolled { background: rgba(10,11,11,.6); -webkit-backdrop-filter: blur(16px) saturate(1.2); backdrop-filter: blur(16px) saturate(1.2); border-bottom-color: var(--line); }
+.site-head .wrap { height: var(--head-h); display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; white-space: nowrap; }
+.brand svg { width: 28px; height: 28px; flex: none; }
+.brand b { font-family: var(--display); font-weight: 800; font-size: 22px; letter-spacing: .02em; text-transform: uppercase; }
+.site-nav { display: flex; align-items: center; gap: 30px; font-size: 14px; }
+.nav-link { color: var(--text-soft); text-decoration: none; padding: 12px 0; }
+.nav-link:hover { color: #fff; }
+@media (max-width: 900px) { .nav-link.hide-md { display: none; } }
+@media (max-width: 560px) { .nav-link.hide-sm { display: none; } .site-nav { gap: 16px; } .brand b { font-size: 19px; } }
+@media (max-width: 520px) { .brand b { display: none; } .site-head .btn-sm { padding: 0 14px; } }
+
+/* Buttons */
+.btn { height: 50px; padding: 0 24px; border-radius: 999px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; font: 600 15px/1 "Inter Tight", system-ui, sans-serif; text-decoration: none; border: 1px solid transparent; cursor: pointer; white-space: nowrap; transition: background-color .2s, border-color .2s, transform .2s var(--ease-out); }
 .btn:active { transform: scale(.98); }
 .btn-sm { height: 42px; padding: 0 18px; font-size: 14px; }
-.btn-accent { background: var(--orange); color: #0b0b0b; }
+.btn-accent { background: var(--orange); color: #120a06; box-shadow: 0 10px 30px -10px rgba(255,106,43,.7); }
 .btn-accent:hover { background: #FF8550; }
-.btn-ghost { background: rgba(255,255,255,.03); color: var(--text); border-color: rgba(255,255,255,.18); }
-.btn-ghost:hover { border-color: rgba(255,255,255,.4); }
+.btn-ghost { background: rgba(10,11,11,.3); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); color: var(--text); border-color: rgba(255,255,255,.22); }
+.btn-ghost:hover { border-color: rgba(255,255,255,.5); }
+.cta-row { display: flex; justify-content: center; margin-top: 48px; }
 
-/* ---------- Hero ---------- */
-.hero { position: relative; overflow-x: clip; }
-.hero .wrap { min-height: calc(100svh - var(--head-h)); display: grid; grid-template-rows: auto 1fr; gap: 8px; padding-block: clamp(24px, 4vh, 48px) 28px; }
-.hero-head { text-align: center; }
-.eyebrow { margin: 0 0 14px; font-size: 14px; color: var(--text-2); }
-.eyebrow i { font-style: normal; color: var(--teal); }
-.hero h1 { margin: 0 auto; max-width: 22ch; font-weight: 800; font-stretch: 66%; font-size: clamp(46px, min(6.2vw, 9.5svh), 100px); line-height: .88; letter-spacing: -.02em; text-transform: uppercase; text-wrap: balance; }
-.hero h1 .hl { background: linear-gradient(95deg, var(--teal), #9BE7D9 35%, #FFB089 65%, var(--orange)); -webkit-background-clip: text; background-clip: text; color: transparent; }
-.stage-row { display: grid; grid-template-columns: minmax(0,1fr) auto minmax(0,1fr); align-items: end; gap: 48px; padding-top: 22px; }
-.side { padding-bottom: 36px; display: flex; flex-direction: column; gap: 22px; }
-.side.left { align-items: flex-start; }
-.side.right { align-items: flex-end; text-align: right; }
-.lead { margin: 0; font-size: clamp(16px, 1.35vw, 19px); line-height: 1.5; color: var(--text-soft); max-width: 30ch; }
+/* ---------- Portrait hero ---------- */
+.hero { position: relative; min-height: 100svh; display: flex; align-items: flex-end; overflow: hidden; isolation: isolate; }
+.hero-photo { position: absolute; inset: 0; z-index: -1; display: flex; justify-content: flex-end; }
+.hero-photo img { height: 100%; width: min(64%, 110svh); object-fit: cover; object-position: 50% 16%;
+  filter: grayscale(.25) contrast(1.06) brightness(.9);
+  -webkit-mask-image: radial-gradient(62% 72% at 52% 38%, #000 44%, transparent 92%); mask-image: radial-gradient(62% 72% at 52% 38%, #000 44%, transparent 92%); }
+.hero-photo::before { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none; mix-blend-mode: soft-light;
+  background: radial-gradient(60% 60% at 20% 20%, rgba(45,212,207,.9), transparent 70%), radial-gradient(60% 60% at 85% 75%, rgba(255,106,43,.95), transparent 70%); }
+.hero-photo::after { content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(90deg, rgba(10,11,11,.7) 0%, rgba(10,11,11,.2) 45%, rgba(10,11,11,0) 60%), linear-gradient(180deg, rgba(10,11,11,.5) 0%, rgba(10,11,11,0) 16%, rgba(10,11,11,0) 70%, var(--bg) 100%); }
+.hero-inner { width: 100%; display: flex; flex-direction: column; align-items: flex-start; text-align: left; gap: 20px; padding-top: calc(var(--head-h) + 40px); padding-bottom: clamp(48px, 9svh, 96px); }
+.hero h1 { font-size: clamp(76px, min(12vw, 19svh), 210px); text-shadow: 0 10px 60px rgba(0,0,0,.35); max-width: 9ch; }
+.hero h1 .serif { display: block; font-size: .42em; line-height: 1.08; margin-top: .02em; text-shadow: none; }
+.hero .lead { margin: 0; max-width: 44ch; font-size: clamp(16px, 1.3vw, 18px); color: var(--text-soft); }
 .actions { display: flex; gap: 10px; flex-wrap: wrap; }
-.stats { margin: 0; display: grid; gap: 18px; }
-.stats div { display: grid; gap: 2px; }
-.stats dt { order: 2; font-size: 13px; color: var(--text-2); }
-.stats dd { order: 1; margin: 0; font-weight: 800; font-stretch: 70%; font-size: clamp(30px, 2.8vw, 42px); line-height: 1; letter-spacing: -.01em; }
-.stats dd small { font-size: .55em; color: var(--text-2); font-weight: 600; margin-left: 2px; }
-@media (max-width: 960px) {
-  .hero .wrap { min-height: 0; }
-  .stage-row { grid-template-columns: minmax(0,1fr); gap: 26px; justify-items: center; }
-  .featured { order: 1; }
-  .side.left { order: 2; align-items: center; text-align: center; padding-bottom: 0; }
-  .side.left .lead { max-width: 36ch; }
-  .side.left .actions { justify-content: center; }
-  .side.right { order: 3; align-items: stretch; text-align: left; padding-bottom: 0; width: 100%; }
-  .stats { grid-template-columns: repeat(3, minmax(0,1fr)); gap: 12px; border-top: 1px solid var(--line); padding-top: 18px; }
-  .stats dd { font-size: 28px; }
-  .stats dt { font-size: 12px; line-height: 1.35; }
+.scroll-cue { display: inline-flex; align-items: center; gap: 8px; margin-top: 6px; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--text-2); text-decoration: none; }
+.scroll-cue span { width: 1px; height: 26px; background: linear-gradient(var(--orange), transparent); }
+@media (max-width: 900px) {
+  .hero-photo { justify-content: center; }
+  .hero-photo img { width: 100%; }
+  .hero-photo::after { background: linear-gradient(180deg, rgba(10,11,11,.5) 0%, rgba(10,11,11,0) 16%, rgba(10,11,11,0) 38%, rgba(10,11,11,.85) 62%, var(--bg) 82%); }
+  .hero-inner { align-items: center; text-align: center; }
+  .hero h1 { max-width: none; }
+  .actions { justify-content: center; }
 }
-@media (max-width: 560px) { .hero h1 { font-size: clamp(32px, 9.4vw, 56px); } .contact .email-link { font-size: 8.2vw; overflow-wrap: normal; } .side.left .actions .btn { flex: 1 1 0; padding: 0 12px; } .side.left .actions { width: 100%; } }
+@media (max-width: 720px) {
+  .hero { min-height: 94svh; }
+  .hero-photo img { width: 100%; height: 66%; object-position: 50% 10%; -webkit-mask-image: radial-gradient(90% 80% at 50% 36%, #000 50%, transparent 95%); mask-image: radial-gradient(90% 80% at 50% 36%, #000 50%, transparent 95%); }
+  .hero h1 { font-size: clamp(60px, 19vw, 104px); }
+  .hero .actions { width: 100%; }
+  .hero .actions .btn { flex: 1 1 0; padding: 0 12px; }
+}
+.reveal-pending .hero-photo img { opacity: 0; transform: scale(1.06); }
+.reveal-pending .rise { opacity: 0; transform: translateY(18px); }
 
-/* Phone (from the draft) */
-.featured { --pw: clamp(200px, min(22vw, calc((100svh - 430px) / 1.94)), 300px); width: calc(var(--pw) + 60px); display: flex; flex-direction: column; align-items: center; }
-@media (max-width: 960px) { .featured { --pw: min(62vw, 250px); } }
+/* ---------- Reel stage ---------- */
+.reel-sec { padding-block: 40px 100px; overflow-x: clip; }
+.stage-row { display: grid; grid-template-columns: minmax(0,1fr) auto minmax(0,1fr); align-items: center; gap: 48px; }
+.side { display: flex; flex-direction: column; gap: 20px; }
+.side.right { align-items: flex-end; text-align: right; }
+.side h2 { font-size: clamp(44px, 4.6vw, 72px); }
+.side h2 .serif { display: block; font-size: .8em; line-height: 1; }
+.side p { margin: 0; color: var(--text-soft); max-width: 34ch; }
+.creator { display: flex; align-items: center; gap: 12px; text-align: left; }
+.creator img { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; border: 2px solid rgba(255,255,255,.15); }
+.creator small { display: block; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--text-2); }
+.creator b { font-family: var(--display); font-weight: 800; font-size: 22px; text-transform: uppercase; letter-spacing: .01em; line-height: 1; }
+.mini-stats { margin: 0; display: grid; gap: 16px; }
+.mini-stats div { display: grid; }
+.mini-stats dt { order: 2; font-size: 12px; color: var(--text-2); }
+.mini-stats dd { order: 1; margin: 0; font-family: var(--display); font-weight: 800; font-size: 48px; line-height: .9; }
+.mini-stats dd em, .stat dd em { font-style: normal; color: var(--orange); }
+@media (max-width: 960px) {
+  .stage-row { grid-template-columns: minmax(0,1fr); gap: 30px; justify-items: center; text-align: center; }
+  .featured { order: 2; }
+  .side.left { order: 1; align-items: center; }
+  .side.right { order: 3; align-items: center; text-align: center; }
+  .mini-stats { grid-template-columns: repeat(3, minmax(0,1fr)); gap: 18px; }
+}
+@media (max-width: 560px) { .mini-stats dd { font-size: 38px; } }
+
+/* Phone */
+.featured { --pw: clamp(220px, min(23vw, calc((100svh - 200px) / 2.05)), 300px); width: calc(var(--pw) + 60px); display: flex; flex-direction: column; align-items: center; }
+@media (max-width: 960px) { .featured { --pw: min(64vw, 260px); } }
 .phone-scene { position: relative; width: var(--pw); height: calc(var(--pw) * 1.9375); perspective: 1600px; perspective-origin: 50% 35%; }
 .ambient { position: absolute; left: -55%; top: 0; width: 210%; height: 100%; border-radius: 50%; filter: blur(60px) saturate(1.6); opacity: .55; pointer-events: none; }
 .ph-shadow { position: absolute; left: 14%; right: 14%; bottom: -6%; height: 5%; border-radius: 50%; background: radial-gradient(closest-side, rgba(0,0,0,.9), rgba(0,0,0,0)); filter: blur(6px); transform: scaleX(var(--sh,1)); opacity: var(--sho,.9); pointer-events: none; }
@@ -159,151 +205,158 @@ button { font: inherit; }
 .playhead { position: absolute; z-index: 4; top: 0; bottom: 0; left: 0; width: 2px; margin-left: -1px; background: var(--orange); box-shadow: 0 0 14px rgba(255,106,43,.8); opacity: 0; pointer-events: none; }
 .playhead .mono { position: absolute; top: calc(var(--pw) * .14); left: 6px; font-size: 11px; line-height: 1; padding: 4px 6px; border-radius: 4px; background: var(--orange); color: #000; white-space: nowrap; }
 .playhead.flip .mono { left: auto; right: 6px; }
-.reveal-pending .screen-media { clip-path: inset(0 100% 0 0); }
-.reveal-pending .phone-scene, .reveal-pending .ambient { opacity: 0; }
-.reveal-pending .rise { opacity: 0; transform: translateY(16px); }
+.phone-pending .screen-media { clip-path: inset(0 100% 0 0); }
+.phone-pending .phone-scene, .phone-pending .ambient { opacity: 0; }
 .transport { width: var(--pw); margin-top: 26px; display: flex; align-items: center; gap: 12px; }
 .transport .tc { font-size: 11px; color: var(--orange); }
 .transport .dur { font-size: 11px; color: var(--text-2); }
 .progress { position: relative; flex: 1 1 auto; height: 2px; border-radius: 2px; overflow: hidden; background: rgba(255,255,255,.16); }
 .progress > span { display: block; height: 100%; background: linear-gradient(90deg, var(--teal), var(--orange)); transform-origin: left center; transform: scaleX(0); }
-.featured-cap { margin: 12px 0 0; font-size: 13px; color: var(--text-2); text-align: center; }
+.featured-cap { margin: 10px 0 0; font-size: 12px; color: var(--text-2); text-align: center; letter-spacing: .06em; text-transform: uppercase; }
 
-/* ---------- Marquee ---------- */
-.marquee { border-block: 1px solid var(--line); overflow: hidden; padding-block: 18px; background: rgba(7,9,10,.35); }
-.marquee-track { display: flex; width: max-content; animation: slide 60s linear infinite; }
-.marquee-track span { font-weight: 700; font-stretch: 72%; font-size: clamp(20px, 2.2vw, 28px); text-transform: uppercase; color: rgba(243,241,236,.34); padding-right: 44px; white-space: nowrap; }
-.marquee-track span i { font-style: normal; color: var(--orange); opacity: .7; margin-left: 44px; }
-@keyframes slide { to { transform: translateX(-50%); } }
-@media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; flex-wrap: wrap; width: auto; } }
+/* Glass stat cards */
+.stats-band .row { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 16px; }
+.stat { position: relative; margin: 0; padding: 26px 24px 22px; border-radius: var(--radius); background: linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.02)); border: 1px solid var(--card-line); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); display: grid; gap: 6px; min-height: 170px; align-content: end; }
+.stat .ico { position: absolute; top: 18px; right: 18px; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: rgba(255,106,43,.14); color: var(--orange); }
+.stat dt { order: 2; font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--text-2); }
+.stat dd { order: 1; margin: 0; font-family: var(--display); font-weight: 800; font-size: clamp(56px, 6vw, 84px); line-height: .85; }
+.stat-note { margin: 22px 0 0; text-align: center; font-size: 13px; color: var(--text-2); }
+.stat-note a { color: var(--text-soft); }
+@media (max-width: 900px) { .stats-band .row { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; } .stat { min-height: 140px; padding: 20px 18px 18px; } }
 
-/* ---------- Sections ---------- */
-section.block { padding-block: 104px; }
-.sec-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 40px; }
-h2.section-title { margin: 0; font-weight: 800; font-stretch: 66%; font-size: clamp(44px, 5.6vw, 76px); line-height: .9; letter-spacing: -.02em; text-transform: uppercase; }
-.sec-note { margin: 0; font-size: 15px; color: var(--text-2); max-width: 40ch; }
+/* Project carousel */
+.track { display: flex; gap: 18px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: var(--gutter); padding: 4px var(--gutter) 18px; margin-inline: calc(-1 * var(--gutter)); scrollbar-width: none; }
+.track::-webkit-scrollbar { display: none; }
+.card { flex: none; width: clamp(260px, 27vw, 360px); scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px; text-decoration: none; color: inherit; }
+.card .media { aspect-ratio: 4 / 5.4; border-radius: 22px; }
+.card h3 { margin: 4px 0 0; font-family: var(--display); font-weight: 800; font-size: 30px; line-height: .92; text-transform: uppercase; }
+.kick { font-size: 12px; color: var(--teal); }
+.card p { margin: 0; font-size: 14px; line-height: 1.5; color: var(--text-2); }
+.card .go { display: inline-flex; align-items: center; gap: 8px; height: 38px; padding: 0 16px; border-radius: 999px; border: 1px solid rgba(255,255,255,.2); font-size: 13px; font-weight: 600; width: fit-content; margin-top: 2px; transition: border-color .2s, background-color .2s; }
+.card:hover .go { border-color: var(--orange); background: rgba(255,106,43,.1); }
+.car-nav { display: flex; gap: 10px; justify-content: center; margin-top: 18px; }
+.car-btn { width: 50px; height: 50px; border-radius: 50%; border: 1px solid rgba(255,255,255,.2); background: rgba(255,255,255,.04); color: var(--text); display: grid; place-items: center; cursor: pointer; transition: border-color .2s, opacity .2s; }
+.car-btn:hover { border-color: rgba(255,255,255,.5); }
+.car-btn:disabled { opacity: .3; cursor: default; }
+@media (max-width: 720px) { .card { width: 74vw; } .card h3 { font-size: 26px; } }
 
-.chip { position: absolute; z-index: 2; font-size: 11px; line-height: 1; padding: 6px 8px; border-radius: 6px; background: rgba(0,0,0,.6); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); color: var(--text); }
-.chip.ratio { top: 10px; left: 10px; }
-.chip.dur { bottom: 10px; right: 10px; }
-.chip.badge { top: 10px; right: 10px; background: var(--orange); color: #0b0b0b; font-weight: 500; }
-.chip.badge.soft { background: rgba(255,255,255,.9); }
-
-/* Lead project */
-.lead-project { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: 48px; align-items: center; margin-bottom: 96px; padding: 36px; border-radius: 22px; background: linear-gradient(160deg, rgba(255,255,255,.045), rgba(255,255,255,.01)); border: 1px solid var(--line); }
-.lp-copy { display: flex; flex-direction: column; gap: 16px; }
-.lp-copy h3 { margin: 0; font-weight: 800; font-stretch: 68%; font-size: clamp(34px, 3.4vw, 50px); line-height: .92; letter-spacing: -.015em; text-transform: uppercase; }
-.kicker { margin: 0; font-size: 13px; color: var(--teal); }
-.lp-copy p.body { margin: 0; color: var(--text-soft); font-size: 16px; line-height: 1.55; }
-.lp-stats { display: flex; gap: 28px; margin: 6px 0 0; }
-.lp-stats div { display: grid; }
-.lp-stats dt { order: 2; font-size: 12px; color: var(--text-2); }
-.lp-stats dd { order: 1; margin: 0; font-weight: 800; font-stretch: 70%; font-size: 34px; line-height: 1; }
-.lp-clips { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 14px; }
-@media (max-width: 1000px) { .lead-project { grid-template-columns: minmax(0,1fr); gap: 28px; padding: 24px; } }
-@media (max-width: 720px) { .lp-clips { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; } .lead-project { margin-bottom: 64px; padding: 18px; border-radius: 18px; } }
-
-/* Tiles */
-.tile { display: flex; flex-direction: column; gap: 12px; text-decoration: none; color: inherit; min-width: 0; }
-.tile:focus-visible { outline: none; }
-.tile:focus-visible .media { outline: 2px solid var(--teal); outline-offset: 3px; }
-.media { position: relative; border-radius: var(--radius); overflow: hidden; background: var(--surface); aspect-ratio: var(--ar); box-shadow: 0 20px 50px -24px rgba(0,0,0,.8); }
+/* Shared media */
+.tile:focus-visible, .card:focus-visible { outline: none; }
+.tile:focus-visible .media, .card:focus-visible .media { outline: 2px solid var(--teal); outline-offset: 3px; }
+.media { position: relative; border-radius: 14px; overflow: hidden; background: #141616; aspect-ratio: var(--ar); box-shadow: 0 24px 60px -28px rgba(0,0,0,.9); }
 .media img, .media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease-out); }
-@media (hover: hover) and (pointer: fine) { .tile:hover .media img { transform: scale(1.03); } }
+@media (hover: hover) and (pointer: fine) { .card:hover .media img, .tile:hover .media img { transform: scale(1.03); } }
 .media video { opacity: 0; transition: opacity 200ms linear; }
-.tile.is-previewing .media video { opacity: 1; }
+.is-previewing .media video { opacity: 1; }
 .media .bar { position: absolute; z-index: 2; left: 0; right: 0; bottom: 0; height: 2px; background: rgba(255,255,255,.2); opacity: 0; }
 .media .bar > span { display: block; height: 100%; background: linear-gradient(90deg, var(--teal), var(--orange)); transform-origin: left; transform: scaleX(0); }
-.tile.is-previewing .bar { opacity: 1; }
-.play-pill { position: absolute; z-index: 2; left: 50%; top: 50%; transform: translate(-50%,-50%); height: 44px; padding: 0 18px; border-radius: 999px; background: rgba(255,255,255,.92); color: #000; font-weight: 600; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; opacity: 0; transition: opacity 150ms linear; pointer-events: none; }
-.play-dot { position: absolute; z-index: 2; left: 10px; bottom: 10px; width: 32px; height: 32px; border-radius: 50%; background: rgba(255,255,255,.92); color: #000; display: none; align-items: center; justify-content: center; }
-@media (hover: hover) and (pointer: fine) { .tile:hover .play-pill { opacity: 1; } }
-.tile:focus-visible .play-pill { opacity: 1; }
-@media (hover: none) { .play-dot { display: inline-flex; } }
-.tile-label { font-size: 14px; font-weight: 600; line-height: 1.3; }
+.is-previewing .bar { opacity: 1; }
+.chip { position: absolute; z-index: 2; font-size: 11px; line-height: 1; padding: 6px 8px; border-radius: 6px; background: rgba(0,0,0,.6); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); color: var(--text); }
+.chip.dur { bottom: 12px; right: 12px; }
+.chip.ratio { top: 12px; left: 12px; }
+.chip.badge { top: 12px; right: 12px; background: var(--orange); color: #120a06; font-weight: 500; }
+.chip.badge.soft { background: rgba(255,255,255,.9); }
+.play-dot { position: absolute; z-index: 2; left: 12px; bottom: 12px; width: 36px; height: 36px; border-radius: 50%; background: rgba(255,255,255,.92); color: #000; display: inline-flex; align-items: center; justify-content: center; }
+.tile { display: flex; flex-direction: column; gap: 10px; text-decoration: none; color: inherit; min-width: 0; }
+.tile-label { font-size: 13px; font-weight: 600; line-height: 1.3; }
 
-/* Bento grid: 2 large, then 3 */
-.grid { display: grid; grid-template-columns: repeat(6, minmax(0,1fr)); gap: 56px 28px; }
-.grid .proj { grid-column: span 2; }
-.grid .proj.big { grid-column: span 3; }
-.proj .media { --ar: 4 / 5 !important; }
-.grid .proj.big .media { aspect-ratio: 1 / 1; }
-.grid .proj.big .media img, .grid .proj.big .media video { object-position: 50% 68%; }
-.proj-meta { display: flex; flex-direction: column; gap: 4px; }
-.proj-kicker { font-size: 12px; color: var(--teal); }
-.proj-title { font-weight: 800; font-stretch: 72%; font-size: 26px; line-height: 1.02; letter-spacing: -.01em; text-transform: uppercase; }
-.proj-line { font-size: 14px; color: var(--text-2); line-height: 1.45; }
-@media (max-width: 900px) { .grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 40px 14px; } .grid .proj, .grid .proj.big { grid-column: span 1; } .grid .proj.big .media { aspect-ratio: 4 / 5; } .grid .proj:last-child { grid-column: 1 / -1; } .grid .proj:last-child .media { aspect-ratio: 16 / 10; } }
-@media (max-width: 720px) { .proj-title { font-size: 19px; } .proj-line { display: none; } .chip.ratio { top: 8px; left: 8px; } .chip.dur { bottom: 8px; right: 8px; } .chip.badge { top: 8px; right: 8px; } }
+/* The editor */
+.editor-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 64px; align-items: center; }
+.portrait-card { position: relative; border-radius: 26px; overflow: hidden; aspect-ratio: 4 / 5; background: #141616; }
+.portrait-card img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
+.portrait-card::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 55%, rgba(0,0,0,.75)); }
+.portrait-cap { position: absolute; z-index: 1; left: 22px; right: 22px; bottom: 18px; display: flex; justify-content: space-between; align-items: end; gap: 12px; }
+.portrait-cap b { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 30px; line-height: 1; }
+.portrait-cap span { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--text-soft); text-align: right; }
+.editor-copy { display: flex; flex-direction: column; gap: 20px; align-items: flex-start; }
+.editor-copy h2 { font-size: clamp(56px, 7vw, 104px); }
+.editor-copy h2 .serif { display: block; font-size: .8em; line-height: 1; }
+.editor-copy p { margin: 0; font-size: 17px; line-height: 1.65; color: var(--text-soft); max-width: 54ch; }
+.facts-row { display: flex; gap: 32px; flex-wrap: wrap; margin: 6px 0 4px; }
+.facts-row div { display: grid; gap: 2px; }
+.facts-row small { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--text-2); }
+.facts-row b { font-family: var(--display); font-weight: 800; font-size: 22px; text-transform: uppercase; line-height: 1.05; }
+@media (max-width: 900px) { .editor-grid { grid-template-columns: minmax(0,1fr); gap: 36px; } .portrait-card { max-width: 420px; } }
 
-/* Hidden archive */
-details.more { margin-top: 88px; border-top: 1px solid var(--line); }
+/* Brands marquee */
+.brands { padding-block: 40px; border-block: 1px solid var(--line); overflow: hidden; }
+.brands .lbl { text-align: center; margin-bottom: 18px; }
+.marquee-track { display: flex; width: max-content; animation: slide 55s linear infinite; }
+.marquee-track span { font-family: var(--display); font-weight: 800; font-size: clamp(34px, 4vw, 56px); text-transform: uppercase; color: rgba(244,241,236,.26); padding-right: 56px; white-space: nowrap; line-height: 1.1; }
+.marquee-track span i { font-style: normal; color: var(--orange); opacity: .6; margin-left: 56px; font-size: .6em; vertical-align: .25em; }
+@keyframes slide { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; flex-wrap: wrap; width: auto; justify-content: center; } }
+
+/* Services */
+.stack-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 18px; }
+.arm { padding: 32px; border-radius: 24px; background: linear-gradient(160deg, rgba(255,255,255,.06), rgba(255,255,255,.015)); border: 1px solid var(--card-line); display: flex; flex-direction: column; gap: 14px; }
+.arm small { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--teal); }
+.arm h3 { margin: 0; font-family: var(--display); font-weight: 800; font-size: clamp(40px, 4.4vw, 64px); line-height: .88; text-transform: uppercase; }
+.arm h3 .serif { font-size: .85em; }
+.arm ul { margin: 6px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.arm li { display: flex; gap: 12px; font-size: 15px; color: var(--text-soft); padding-top: 10px; border-top: 1px solid var(--line); }
+.arm li::before { content: "→"; color: var(--orange); }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 34px; padding: 0; list-style: none; }
+.tags li { font-size: 14px; padding: 9px 15px; border-radius: 999px; border: 1px solid var(--card-line); background: rgba(255,255,255,.035); }
+.tools { margin: 22px auto 0; text-align: center; font-size: 14px; color: var(--text-2); max-width: 70ch; }
+@media (max-width: 860px) { .stack-grid { grid-template-columns: minmax(0,1fr); } .arm { padding: 24px; } }
+
+/* Archive */
+details.more { border: 1px solid var(--card-line); border-radius: 24px; background: rgba(255,255,255,.025); padding-inline: 28px; }
 details.more > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 26px 0; }
 details.more > summary::-webkit-details-marker { display: none; }
-.more-title { font-weight: 800; font-stretch: 72%; font-size: clamp(24px, 2.6vw, 34px); text-transform: uppercase; line-height: 1; }
+.more-title { font-family: var(--display); font-weight: 800; font-size: clamp(30px, 3vw, 42px); text-transform: uppercase; line-height: 1; }
 .more-sub { font-size: 14px; color: var(--text-2); margin-top: 6px; }
-.more-btn { flex: none; width: 48px; height: 48px; border-radius: 50%; border: 1px solid rgba(255,255,255,.2); display: grid; place-items: center; transition: transform .3s var(--ease-out), border-color .2s; }
+.more-btn { flex: none; width: 50px; height: 50px; border-radius: 50%; border: 1px solid rgba(255,255,255,.2); display: grid; place-items: center; transition: transform .3s var(--ease-out), border-color .2s; }
 details.more > summary:hover .more-btn { border-color: rgba(255,255,255,.45); }
 details.more[open] .more-btn { transform: rotate(45deg); }
 .arow { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 9fr); gap: 32px; padding-block: 26px; border-top: 1px solid var(--line); }
 .arow > * { min-width: 0; }
 .arow-copy { display: flex; flex-direction: column; gap: 6px; }
-.arow-copy h3 { margin: 0; font-weight: 800; font-stretch: 75%; font-size: 22px; line-height: 1.05; text-transform: uppercase; }
+.arow-copy h3 { margin: 0; font-family: var(--display); font-weight: 800; font-size: 26px; line-height: 1; text-transform: uppercase; }
 .arow-copy p { margin: 0; font-size: 14px; color: var(--text-2); line-height: 1.5; }
 .strip { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; scrollbar-width: thin; scrollbar-color: #333 transparent; }
 .strip .tile { flex: none; scroll-snap-align: start; }
 .strip .media { height: 200px; width: auto; }
-@media (max-width: 860px) { .arow { grid-template-columns: minmax(0,1fr); gap: 14px; } .strip { margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); } .strip .media { height: 180px; } }
-
-/* About */
-.about-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 64px; align-items: start; }
-.about-side { display: flex; flex-direction: column; gap: 28px; }
-.portrait-wrap { position: relative; max-width: 420px; }
-.portrait-wrap::before { content: ""; position: absolute; inset: -18px; z-index: -1; border-radius: 30px; background: radial-gradient(60% 60% at 30% 20%, rgba(45,212,207,.35), transparent 70%), radial-gradient(60% 60% at 80% 90%, rgba(255,106,43,.35), transparent 70%); filter: blur(22px); }
-.portrait { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 18px; }
-.about-body { display: flex; flex-direction: column; gap: 18px; max-width: 60ch; }
-.about-body p { margin: 0; font-size: 18px; line-height: 1.6; color: var(--text-soft); }
-.services { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 4px; padding: 0; list-style: none; }
-.services li { font-size: 14px; padding: 8px 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.03); }
-.facts { margin: 8px 0 0; display: grid; grid-template-columns: max-content minmax(0,1fr); gap: 12px 28px; font-size: 15px; }
-.facts dt { color: var(--text-2); }
-.facts dd { margin: 0; }
-@media (max-width: 860px) { .about-grid { grid-template-columns: minmax(0,1fr); gap: 32px; } .portrait-wrap { max-width: 280px; } .facts { grid-template-columns: minmax(0,1fr); gap: 2px; } .facts dd { margin-bottom: 12px; } section.block { padding-block: 72px; } }
+@media (max-width: 860px) { details.more { padding-inline: 18px; } .arow { grid-template-columns: minmax(0,1fr); gap: 14px; } .strip .media { height: 170px; } }
 
 /* Contact */
-.contact .wrap { display: flex; flex-direction: column; gap: 22px; }
-.contact p { margin: 0; font-size: 18px; color: var(--text-soft); max-width: 50ch; }
-.email-link { font-weight: 800; font-stretch: 66%; font-size: clamp(30px, 6.2vw, 90px); line-height: 1; letter-spacing: -.02em; text-decoration: none; overflow-wrap: anywhere; width: fit-content; background: linear-gradient(90deg, var(--teal), var(--orange)) 0 100% / 100% 3px no-repeat; padding-bottom: 8px; transition: color .2s; }
-.email-link:hover { color: #FFD3BE; }
-.contact-links { display: flex; gap: 12px; flex-wrap: wrap; font-size: 15px; align-items: center; }
-.contact-links span { color: var(--text-2); margin-left: 6px; }
-.site-foot { padding-block: 28px 44px; color: var(--text-2); font-size: 13px; border-top: 1px solid var(--line); }
+.contact .wrap { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 22px; }
+.contact h2 { font-size: clamp(60px, 10vw, 150px); }
+.contact h2 .serif { display: block; font-size: .5em; line-height: 1.05; }
+.contact .lead { margin: 0; max-width: 52ch; color: var(--text-soft); font-size: 17px; }
+.email-link { font-family: var(--display); font-weight: 800; font-size: clamp(30px, 5vw, 72px); line-height: 1; text-transform: lowercase; text-decoration: none; padding-bottom: 8px; background: linear-gradient(90deg, var(--teal), var(--orange)) 0 100% / 100% 3px no-repeat; transition: color .2s; }
+.email-link:hover { color: var(--peach); }
+.contact-links { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+.contact-meta { display: flex; gap: 28px; flex-wrap: wrap; justify-content: center; font-size: 13px; color: var(--text-2); margin-top: 8px; }
+.site-foot { padding-block: 26px 40px; color: var(--text-2); font-size: 13px; border-top: 1px solid var(--line); }
+.site-foot .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+@media (max-width: 560px) { .contact .email-link { font-size: 8.6vw; } }
 
-/* ---------- Player ---------- */
+/* Player */
 dialog.player { position: fixed; inset: 0; width: 100%; height: 100%; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: transparent; color: var(--text); overflow-y: auto; overscroll-behavior: contain; }
 dialog.player::backdrop { background: transparent; }
-.scrim { position: fixed; inset: 0; background: rgba(5,6,7,.96); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
-@media (max-width: 860px) { .scrim { background: #050607; } }
+.scrim { position: fixed; inset: 0; background: rgba(6,7,7,.96); }
+@media (max-width: 860px) { .scrim { background: #060707; } }
 .player-inner { position: relative; min-height: 100%; display: flex; align-items: center; justify-content: center; gap: 48px; padding: 64px 40px 40px; }
-.pvideo { position: relative; flex: none; border-radius: var(--radius); overflow: hidden; background: #000; aspect-ratio: var(--ar, 9 / 16); height: min(84vh, calc(100vh - 120px), calc((100vw - 500px) / var(--arn, .5625))); width: auto; }
+.pvideo { position: relative; flex: none; border-radius: 14px; overflow: hidden; background: #000; aspect-ratio: var(--ar, 9 / 16); height: min(84vh, calc(100vh - 120px), calc((100vw - 500px) / var(--arn, .5625))); width: auto; }
 .pvideo video { width: 100%; height: 100%; object-fit: contain; background: #000; }
 .pdetails { width: 360px; flex: none; display: flex; flex-direction: column; gap: 16px; }
-.pkicker { margin: 0; font-size: 13px; color: var(--teal); }
-.ptitle { margin: 0; font-weight: 800; font-stretch: 68%; font-size: 38px; line-height: .95; letter-spacing: -.015em; text-transform: uppercase; }
+.pkicker { margin: 0; font-size: 12px; color: var(--teal); }
+.ptitle { margin: 0; font-family: var(--display); font-weight: 800; font-size: 44px; line-height: .9; text-transform: uppercase; }
 .pclip { margin: 6px 0 0; font-size: 13px; color: var(--text-2); }
 .pproof { margin: 8px 0 0; font-size: 13px; }
 .pproof a { color: var(--orange); }
-.pblock h3 { margin: 0 0 4px; font-size: 12px; font-weight: 500; color: var(--text-2); }
+.pblock h3 { margin: 0 0 4px; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--text-2); }
 .pblock p { margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-soft); }
 .cuts { display: flex; gap: 8px; flex-wrap: wrap; }
-.cut { width: 52px; border: 0; padding: 0; background: none; cursor: pointer; border-radius: 6px; overflow: hidden; opacity: .5; position: relative; }
+.cut { width: 52px; border: 0; padding: 0; background: none; cursor: pointer; border-radius: 6px; overflow: hidden; opacity: .5; }
 .cut img { width: 100%; aspect-ratio: var(--ar); object-fit: cover; }
 .cut[aria-current="true"] { opacity: 1; box-shadow: 0 0 0 2px var(--orange); }
 .cut:hover { opacity: .9; }
 .pnav { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
-.pclose { position: fixed; z-index: 5; top: 14px; right: 16px; width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--surface-2); color: var(--text); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
-.pclose:hover { background: #2a2a2a; }
-.ghost { position: fixed; z-index: 4; overflow: hidden; border-radius: var(--radius); background: #000; pointer-events: none; }
+.pclose { position: fixed; z-index: 5; top: 14px; right: 16px; width: 44px; height: 44px; border-radius: 50%; border: 0; background: #1d2020; color: var(--text); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
+.ghost { position: fixed; z-index: 4; overflow: hidden; border-radius: 14px; background: #000; pointer-events: none; }
 .ghost img { width: 100%; height: 100%; object-fit: cover; }
 .pplay { position: absolute; z-index: 2; left: 50%; top: 50%; transform: translate(-50%,-50%); display: none; }
 .pvideo.needs-tap .pplay { display: inline-flex; }
@@ -311,113 +364,180 @@ dialog.player::backdrop { background: transparent; }
   .player-inner { display: block; padding: 0 0 32px; }
   .pvideo { height: auto; width: min(100%, calc(74svh * var(--arn, .5625))); margin: 0 auto; border-radius: 0; }
   .pdetails { width: auto; padding: 20px 20px 0; }
-  .ptitle { font-size: 30px; }
+  .ptitle { font-size: 36px; }
   .ghost { border-radius: 0; }
 }
-@media (prefers-reduced-motion: reduce) { .media video, .play-pill, .media img, .btn { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .media video, .media img, .btn, .more-btn, .site-head { transition: none; } }
 </style>
 </head>
 <body>
 <div class="field" aria-hidden="true"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div></div>
 <div class="grain" aria-hidden="true"></div>
 <a class="skip" href="#work">Skip to work</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2DD4CF"/><stop offset="1" stop-color="#FF6A2B"/></linearGradient>
+  <symbol id="mark" viewBox="0 0 64 64"><path d="M14 8 L56 32 L14 56 Z" fill="url(#lg)"/><path d="M25 2 L35 62" stroke="#0A0B0B" stroke-width="6"/></symbol>
+</defs></svg>
 
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs>
-    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2DD4CF"/><stop offset="1" stop-color="#FF6A2B"/></linearGradient>
-    <symbol id="mark" viewBox="0 0 64 64"><path d="M14 8 L56 32 L14 56 Z" fill="url(#lg)"/><path d="M25 2 L35 62" stroke="#07090A" stroke-width="6"/></symbol>
-  </defs>
-</svg>
-
-<header class="site-head">
+<header class="site-head js-head">
   <div class="wrap">
-    <a class="brand" href="#top" aria-label="Lloyd Jeriel Parayno, home"><svg aria-hidden="true"><use href="#mark"/></svg><b>Lloyd Jeriel Parayno</b></a>
+    <a class="brand" href="#top" aria-label="Lloyd Jeriel Parayno, home"><svg aria-hidden="true"><use href="#mark"/></svg><b>Lloyd Parayno</b></a>
     <nav class="site-nav" aria-label="Main">
       <a class="nav-link" href="#work">Work</a>
-      <a class="nav-link hide-sm" href="#about">About</a>
-      <a class="btn btn-accent btn-sm" href="#contact">Contact</a>
+      <a class="nav-link hide-sm" href="#editor">Editor</a>
+      <a class="nav-link hide-md" href="#reach">Reach</a>
+      <a class="nav-link hide-md" href="#services">Services</a>
+      <a class="btn btn-accent btn-sm js-email-btn" href="#contact">Start a project →</a>
     </nav>
   </div>
 </header>
 
 <main>
   <section class="hero" id="top" aria-label="Introduction">
-    <div class="wrap">
-      <div class="hero-head">
-        <p class="eyebrow rise">Lloyd Jeriel Parayno <i>·</i> Video editor, Manila</p>
-        <h1 class="rise">Video editor for<br><span class="hl">paid social &amp; AI&nbsp;ads</span></h1>
-      </div>
-      <div class="stage-row">
-        <div class="side left rise">
-          <p class="lead">I edit short-form video ads for brands, combining direct-response storytelling, motion graphics, and AI-assisted production.</p>
-          <div class="actions">
-            <a class="btn btn-accent" href="#work">See the work
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg></a>
-            <button type="button" class="btn btn-ghost js-watch"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg>Play the reel</button>
-          </div>
-        </div>
-
-        <div class="featured">
-          <div class="phone-scene" id="phoneScene">
-            <canvas class="ambient js-ambient" width="16" height="32" aria-hidden="true"></canvas>
-            <div class="ph-shadow js-shadow" aria-hidden="true"></div>
-            <div class="phone-enter js-phone-enter">
-              <div class="phone js-phone">
-                <div class="ph-back"></div>
-                <div class="ph-layer" style="--i:9"></div><div class="ph-layer" style="--i:8"></div><div class="ph-layer" style="--i:7"></div>
-                <div class="ph-layer" style="--i:6"></div><div class="ph-layer" style="--i:5"></div><div class="ph-layer" style="--i:4"></div>
-                <div class="ph-layer" style="--i:3"></div><div class="ph-layer" style="--i:2"></div><div class="ph-layer" style="--i:1"></div>
-                <span class="ph-btn l" style="top:11.5em;height:3em"></span>
-                <span class="ph-btn l" style="top:17em;height:5.6em"></span>
-                <span class="ph-btn l" style="top:23.6em;height:5.6em"></span>
-                <span class="ph-btn r" style="top:19em;height:9em"></span>
-                <div class="ph-front"><div class="ph-bezel">
-                  <div class="ph-screen" id="stage">
-                    <div class="screen-media">
-                      <img class="js-hero-poster" alt="">
-                      <video class="js-hero-video" muted playsinline loop preload="none" aria-hidden="true" tabindex="-1"></video>
-                    </div>
-                    <div class="playhead" aria-hidden="true"><span class="mono js-ph-tc">00:00:00:00</span></div>
-                    <span class="stage-play"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg>Watch with sound</span>
-                    <button type="button" class="stage-open js-watch" aria-label="Play the hook reel with sound"></button>
-                  </div>
-                  <div class="ph-island" aria-hidden="true"></div>
-                </div></div>
-                <div class="ph-glare" aria-hidden="true"></div>
-              </div>
-            </div>
-          </div>
-          <div class="transport rise" aria-hidden="true">
-            <span class="mono tc js-hero-tc">00:00:00:00</span>
-            <div class="progress"><span class="js-hero-bar"></span></div>
-            <span class="mono dur js-hero-dur">00:00:17:24</span>
-          </div>
-          <p class="featured-cap rise">Hook reel · ten ad openings</p>
-        </div>
-
-        <div class="side right rise">
-          <dl class="stats">
-            <div><dt>views on one Short I edited</dt><dd>3.4M</dd></div>
-            <div><dt>brands and accounts at Digital Rocket</dt><dd>11</dd></div>
-            <div><dt>edits on this site, 10 brands</dt><dd class="js-total">44</dd></div>
-          </dl>
-        </div>
+    <div class="hero-photo" aria-hidden="true"><img class="js-hero-photo" src="media/lloyd-hero.jpg" alt="" width="1080" height="1080" fetchpriority="high"></div>
+    <div class="wrap hero-inner">
+      <span class="pill rise"><i></i>Video editor · Manila · Working worldwide</span>
+      <h1 class="display rise">Video editor<span class="serif">for paid social &amp; AI ads.</span></h1>
+      <p class="lead rise">I’m Lloyd Jeriel Parayno. I edit short-form video ads for brands, combining direct-response storytelling, motion graphics, and AI-assisted production.</p>
+      <div class="actions rise">
+        <a class="btn btn-accent js-email-btn" href="#contact">Start a project →</a>
+        <a class="btn btn-ghost" href="#reel"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg>Watch the reel</a>
       </div>
     </div>
   </section>
 
-  <div class="marquee" aria-label="Brands I've edited for">
-    <div class="marquee-track js-marquee" aria-hidden="true"></div>
-  </div>
+  <section class="reel-sec" id="reel" aria-labelledby="reel-title">
+    <div class="wrap stage-row">
+      <div class="side left">
+        <span class="pill"><i></i>Hook reel</span>
+        <h2 class="display" id="reel-title">Ten hooks.<span class="serif">Eighteen seconds.</span></h2>
+        <p>The first two seconds decide whether an ad gets watched. These are the openings from ten of my edits, back to back.</p>
+        <div><button type="button" class="btn btn-ghost js-watch"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg>Watch with sound</button></div>
+      </div>
+      <div class="featured">
+        <div class="phone-scene" id="phoneScene">
+          <canvas class="ambient js-ambient" width="16" height="32" aria-hidden="true"></canvas>
+          <div class="ph-shadow js-shadow" aria-hidden="true"></div>
+          <div class="phone-enter js-phone-enter">
+            <div class="phone js-phone">
+              <div class="ph-back"></div>
+              <div class="ph-layer" style="--i:9"></div><div class="ph-layer" style="--i:8"></div><div class="ph-layer" style="--i:7"></div>
+              <div class="ph-layer" style="--i:6"></div><div class="ph-layer" style="--i:5"></div><div class="ph-layer" style="--i:4"></div>
+              <div class="ph-layer" style="--i:3"></div><div class="ph-layer" style="--i:2"></div><div class="ph-layer" style="--i:1"></div>
+              <span class="ph-btn l" style="top:11.5em;height:3em"></span>
+              <span class="ph-btn l" style="top:17em;height:5.6em"></span>
+              <span class="ph-btn l" style="top:23.6em;height:5.6em"></span>
+              <span class="ph-btn r" style="top:19em;height:9em"></span>
+              <div class="ph-front"><div class="ph-bezel">
+                <div class="ph-screen" id="stage">
+                  <div class="screen-media"><img class="js-hero-poster" alt=""><video class="js-hero-video" muted playsinline loop preload="none" aria-hidden="true" tabindex="-1"></video></div>
+                  <div class="playhead" aria-hidden="true"><span class="mono js-ph-tc">00:00:00:00</span></div>
+                  <span class="stage-play"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg>Watch with sound</span>
+                  <button type="button" class="stage-open js-watch" aria-label="Play the hook reel with sound"></button>
+                </div>
+                <div class="ph-island" aria-hidden="true"></div>
+              </div></div>
+              <div class="ph-glare" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+        <div class="transport" aria-hidden="true"><span class="mono tc js-hero-tc">00:00:00:00</span><div class="progress"><span class="js-hero-bar"></span></div><span class="mono dur">00:00:17:24</span></div>
+        <p class="featured-cap">Hook reel · ten ad openings</p>
+      </div>
+      <div class="side right">
+        <div class="creator"><img src="media/lloyd.jpg" alt="" width="52" height="52" loading="lazy"><div><small>The editor</small><b>Lloyd J. Parayno</b></div></div>
+        <dl class="mini-stats">
+          <div><dt>views on one Short</dt><dd>3.4M<em>+</em></dd></div>
+          <div><dt>brands &amp; accounts</dt><dd>11<em>+</em></dd></div>
+          <div><dt>edits on this site</dt><dd class="js-total">44</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
 
   <section class="block work" id="work" aria-labelledby="work-title">
     <div class="wrap">
-      <div class="sec-head">
-        <h2 class="section-title" id="work-title">Selected work</h2>
-        <p class="sec-note">Tap any edit to watch it with sound. Each project opens with every cut I made for it.</p>
+      <div class="sec-intro">
+        <span class="pill"><i></i>Selected work</span>
+        <h2 class="display" id="work-title">Ads that stop<span class="serif">the scroll.</span></h2>
+        <p>Paid social, UGC and AI-assisted edits for brands in the US, UK and Australia. Open any project to watch every cut with sound.</p>
       </div>
-      <article class="lead-project js-lead" aria-labelledby="lead-title"></article>
-      <div class="grid js-grid"></div>
+      <div class="track js-track" role="list" tabindex="0" aria-label="Projects"></div>
+      <div class="car-nav">
+        <button type="button" class="car-btn js-prev-car" aria-label="Previous projects"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <button type="button" class="car-btn js-next-car" aria-label="Next projects"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+      </div>
+      <div class="cta-row"><a class="btn btn-accent js-email-btn" href="#contact">Start a project →</a></div>
+    </div>
+  </section>
+
+  <section class="block editor" id="editor" aria-labelledby="editor-title">
+    <div class="wrap editor-grid">
+      <div class="portrait-card"><img src="media/lloyd.jpg" alt="Portrait of Lloyd Jeriel Parayno" width="900" height="900" loading="lazy"><div class="portrait-cap"><b>Lloyd Jeriel Parayno</b><span>Video editor<br>Manila, PH</span></div></div>
+      <div class="editor-copy">
+        <span class="pill"><i></i>The editor</span>
+        <h2 class="display" id="editor-title">Cut by<span class="serif">Lloyd Parayno.</span></h2>
+        <p>Since August 2026 I’ve edited paid social ads at Digital Rocket, a performance marketing agency, across 11 brands and accounts in e-commerce, legal, finance, health and franchising.</p>
+        <p>Before that I edited 17 YouTube Shorts for the MonsterBiker channel with Studio Oseven, and built its visual style and an After Effects toolkit to keep it consistent. I started out as a teacher, which is still how I approach a brief: make one point clearly, then make it stick.</p>
+        <div class="facts-row">
+          <div><small>Based</small><b>Manila, PH</b></div>
+          <div><small>Open to</small><b>Full-time &amp; freelance</b></div>
+          <div><small>Working</small><b>Worldwide, remote</b></div>
+        </div>
+        <a class="btn btn-accent js-email-btn" href="#contact">Start a project →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block stats-band" id="reach" aria-labelledby="reach-title">
+    <div class="wrap">
+      <div class="sec-intro">
+        <span class="pill"><i></i>Reach</span>
+        <h2 class="display" id="reach-title">Made for brands<span class="serif">watched by millions.</span></h2>
+        <p>Edits built to perform: hook first, sound-off captions, one clear message per cut.</p>
+      </div>
+      <div class="row">
+        <dl class="stat"><span class="ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg></span><dt>views on one Short</dt><dd>3.4M<em>+</em></dd></dl>
+        <dl class="stat"><span class="ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg></span><dt>views on another</dt><dd>2.5M<em>+</em></dd></dl>
+        <dl class="stat"><span class="ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></span><dt>brands &amp; accounts</dt><dd>11<em>+</em></dd></dl>
+        <dl class="stat"><span class="ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4v16l13-8z"/></svg></span><dt>Shorts for MonsterBiker</dt><dd>17</dd></dl>
+      </div>
+      <p class="stat-note">YouTube view counts, checked 24 Nov 2026: <a href="https://www.youtube.com/shorts/d0Vl3GjFyTk" target="_blank" rel="noopener">3,438,749 ↗</a> and <a href="https://www.youtube.com/shorts/eQ3s2D5bVEw" target="_blank" rel="noopener">2,596,365 ↗</a> (channel since rebranded).</p>
+      <div class="cta-row"><a class="btn btn-accent js-email-btn" href="#contact">Start a project →</a></div>
+    </div>
+  </section>
+
+  <div class="brands" aria-label="Brands I've edited for">
+    <div class="lbl"><span class="pill"><i></i>Brands I've cut for</span></div>
+    <div class="marquee-track js-marquee" aria-hidden="true"></div>
+  </div>
+
+  <section class="block" id="services" aria-labelledby="services-title">
+    <div class="wrap">
+      <div class="sec-intro">
+        <span class="pill"><i></i>Services</span>
+        <h2 class="display" id="services-title">Two crafts.<span class="serif">One editor.</span></h2>
+        <p>Classic editing and motion where the footage exists, AI production where it doesn’t. Delivered in every ratio the placement needs.</p>
+      </div>
+      <div class="stack-grid">
+        <div class="arm">
+          <small>01 · Editing</small>
+          <h3>I cut <span class="serif">the ad.</span></h3>
+          <ul><li>Meta, TikTok and YouTube Shorts ads</li><li>UGC, testimonial and founder-led edits</li><li>Kinetic captions, motion graphics and sound design</li><li>9:16, 4:5 and 16:9 versions from one edit</li></ul>
+        </div>
+        <div class="arm">
+          <small>02 · AI production</small>
+          <h3>I make <span class="serif">the missing shots.</span></h3>
+          <ul><li>AI UGC presenters and scene remakes</li><li>AI product videos and visual metaphors</li><li>AI voiceovers, image generation and upscaling</li><li>Reusable prompt templates and QC workflows</li></ul>
+        </div>
+      </div>
+      <ul class="tags" aria-label="Skills"><li>Video editing</li><li>Motion design</li><li>Kinetic captions</li><li>Sound design</li><li>Color grading</li><li>AI direction</li><li>Video generation</li><li>Image generation</li><li>Hook variations</li><li>After Effects automation</li><li>Multi-format delivery</li></ul>
+      <p class="tools">Premiere Pro · After Effects · CapCut Pro · Magnific · Seedance 2.5 · Seedream 5.5 · GPT 2.5 · MiniMax H3 · ElevenLabs · Kling AI · Frame.io</p>
+    </div>
+  </section>
+
+  <section class="block" aria-label="More work" style="padding-top:0">
+    <div class="wrap">
       <details class="more js-more" id="more-work">
         <summary>
           <div><div class="more-title">More work</div><div class="more-sub js-acount"></div></div>
@@ -428,51 +548,26 @@ dialog.player::backdrop { background: transparent; }
     </div>
   </section>
 
-  <section class="block about" id="about" aria-labelledby="about-title">
-    <div class="wrap about-grid">
-      <div class="about-side">
-        <h2 class="section-title" id="about-title">About</h2>
-        <div class="portrait-wrap"><img class="portrait" src="media/lloyd.jpg" alt="Portrait of Lloyd Jeriel Parayno" width="900" height="900" loading="lazy"></div>
-      </div>
-      <div class="about-body">
-        <p>I’m Lloyd, a video editor in Manila. Since August 2026 I’ve edited paid social ads at Digital Rocket, a performance marketing agency, across 11 brands and accounts in e-commerce, legal, finance, health and franchising.</p>
-        <p>Before that I edited 17 YouTube Shorts for the MonsterBiker channel with Studio Oseven, built its visual style and an After Effects automation toolkit, and two of those Shorts passed 2.5 and 3.4 million views. I started out as a teacher, which is still how I approach a brief: make one point clearly, then make it stick.</p>
-        <ul class="services" aria-label="Services">
-          <li>Meta &amp; TikTok ads</li><li>UGC &amp; testimonial edits</li><li>Motion graphics</li><li>AI-assisted video</li><li>YouTube Shorts</li>
-        </ul>
-        <dl class="facts">
-          <dt>Editing</dt><dd>Premiere Pro, After Effects, CapCut Pro</dd>
-          <dt>AI production</dt><dd>Magnific, Seedance 2.5, Seedream 5.5, GPT 2.5, MiniMax H3, ElevenLabs, Kling AI</dd>
-          <dt>Workflow</dt><dd>Frame.io, ClickUp, Slack, Notion, After Effects automation, Claude-assisted workflows</dd>
-          <dt>Open to</dt><dd>Full-time remote roles and freelance projects</dd>
-        </dl>
-      </div>
-    </div>
-  </section>
-
   <section class="block contact" id="contact" aria-labelledby="contact-title">
     <div class="wrap">
-      <h2 class="section-title" id="contact-title">Hiring an editor?</h2>
-      <p>Open to full-time remote roles and freelance projects. Send the role or brief, the formats you need and your deadline.</p>
+      <span class="pill"><i></i>Contact</span>
+      <h2 class="display" id="contact-title">Have a project?<span class="serif">Let’s make it stop the scroll.</span></h2>
+      <p class="lead">Open to full-time remote roles and freelance projects. Send the role or brief, the formats you need and your deadline.</p>
       <a class="email-link js-email" href="#contact"></a>
       <div class="contact-links">
         <a class="btn btn-ghost btn-sm js-linkedin" href="#contact" target="_blank" rel="noopener">LinkedIn ↗</a>
         <a class="btn btn-ghost btn-sm js-whatsapp" href="#contact" target="_blank" rel="noopener">WhatsApp ↗</a>
-        <span class="mono js-phone-text"></span>
       </div>
+      <div class="contact-meta"><span class="js-phone-text"></span><span>Manila, Philippines</span><span>Remote, worldwide</span></div>
     </div>
   </section>
 </main>
 
-<footer class="site-foot">
-  <div class="wrap">© 2026 Lloyd Jeriel Parayno. Brand names belong to their owners and are shown with permission to credit the work.</div>
-</footer>
+<footer class="site-foot"><div class="wrap"><span>© 2026 Lloyd Jeriel Parayno</span><span>Brand names belong to their owners and are shown with permission to credit the work.</span></div></footer>
 
 <dialog class="player" id="player" aria-labelledby="ptitle">
   <div class="scrim js-scrim"></div>
-  <button type="button" class="pclose js-close" aria-label="Close player">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-  </button>
+  <button type="button" class="pclose js-close" aria-label="Close player"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
   <div class="player-inner js-pinner">
     <div class="pvideo js-pbox">
       <video class="js-pvideo" playsinline controls preload="metadata"></video>
@@ -489,10 +584,7 @@ dialog.player::backdrop { background: transparent; }
       <div class="pblock"><h3>What I did</h3><p class="js-prole"></p></div>
       <div class="pblock"><h3>Tools</h3><p class="js-ptools"></p></div>
       <div class="pblock js-pcuts-wrap"><h3>Edits in this project</h3><div class="cuts js-cuts"></div></div>
-      <div class="pnav">
-        <button type="button" class="btn btn-ghost btn-sm js-prev">Previous</button>
-        <button type="button" class="btn btn-ghost btn-sm js-next">Next project</button>
-      </div>
+      <div class="pnav"><button type="button" class="btn btn-ghost btn-sm js-prev">Previous</button><button type="button" class="btn btn-ghost btn-sm js-next">Next project</button></div>
     </div>
   </div>
 </dialog>
@@ -522,6 +614,8 @@ const PROJECTS = [
   },
   {
     slug: "monster-biker", lead: true,
+    blurb: "Seventeen Shorts for the channel rebrand. Two of them passed 2.5M and 3.4M views.",
+    cardBadge: "3.4M views",
     kicker: "Freelance · Studio Oseven · YouTube Shorts",
     title: "Monster Biker — Short-Form Rebrand",
     about: "",
@@ -701,82 +795,80 @@ const PROJECTS = [
   function timecode(seconds) { const fps = SITE.fps, f = Math.max(0, Math.floor(seconds * fps + 1e-6)); return [Math.floor(f / fps / 3600), Math.floor(f / fps / 60) % 60, Math.floor(f / fps) % 60, f % fps].map((n) => String(n).padStart(2, "0")).join(":"); }
   function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
 
+  /* Header turns solid after the hero starts scrolling */
+  const head = $(".js-head");
+  const onScroll = () => head.classList.toggle("scrolled", scrollY > 40);
+  addEventListener("scroll", onScroll, { passive: true }); onScroll();
+
   /* Contact */
-  const em = $(".js-email"); em.href = "mailto:" + SITE.email; const at = SITE.email.indexOf("@"); em.append(SITE.email.slice(0, at), document.createElement("wbr"), SITE.email.slice(at));
+  const mail = "mailto:" + SITE.email + "?subject=" + encodeURIComponent("Project enquiry");
+  const em = $(".js-email"); em.href = mail;
+  const at = SITE.email.indexOf("@"); em.append(SITE.email.slice(0, at), document.createElement("wbr"), SITE.email.slice(at));
   $(".js-linkedin").href = SITE.linkedin;
   $(".js-whatsapp").href = SITE.whatsapp;
   $(".js-phone-text").textContent = SITE.phone;
+  $$(".js-email-btn").forEach((b) => (b.href = mail));
 
   const work = PROJECTS.filter((p) => !p.reel);
   const featuredP = work.filter((p) => !p.archive), archiveP = work.filter((p) => p.archive);
   const nClips = (list) => list.reduce((a, p) => a + p.clips.length, 0);
   $(".js-total").textContent = nClips(work);
   $(".js-acount").textContent = archiveP.length + " more brands · " + nClips(archiveP) + " edits · " + archiveP.map((p) => p.title).join(", ");
-
-  /* Marquee */
   const mt = $(".js-marquee");
   for (let r = 0; r < 2; r++) work.forEach((p) => { const s = el("span", "", p.title.split(" — ")[0]); s.appendChild(el("i", "", "✦")); mt.appendChild(s); });
 
-  /* Tiles */
+  /* Media blocks */
   const tilesBySrc = new Map();
   const previewStops = [];
-  function makeTile(p, ci, opts) {
+  function makeMedia(p, ci, opts) {
     const c = p.clips[ci];
-    const a = el("a", "tile" + (opts.cls ? " " + opts.cls : ""));
-    a.href = "#" + p.slug + (ci ? "-" + (ci + 1) : "");
     const media = el("div", "media");
     media.style.setProperty("--ar", arCss(c.ratio));
     const img = el("img"); img.src = c.poster; img.alt = ""; img.loading = "lazy"; img.decoding = "async";
     const v = el("video"); v.muted = true; v.loop = true; v.playsInline = true; v.preload = "none"; v.setAttribute("aria-hidden", "true"); v.tabIndex = -1;
     const dur = el("span", "chip mono dur", c.dur);
     const bar = el("div", "bar"); bar.appendChild(el("span"));
-    const pill = el("span", "play-pill"); pill.innerHTML = svgPlay(13) + "Play";
     const dot = el("span", "play-dot"); dot.innerHTML = svgPlay(12);
-    media.append(img, v, dur, bar, pill, dot);
-    if (!opts.noRatio) media.appendChild(el("span", "chip mono ratio", c.ratio));
+    media.append(img, v, dur, bar, dot);
+    if (opts.ratio) media.appendChild(el("span", "chip mono ratio", c.ratio));
     if (opts.badge) media.appendChild(el("span", "chip mono badge" + (opts.badgeSoft ? " soft" : ""), opts.badge));
-    a.appendChild(media);
-    a.setAttribute("aria-label", "Play " + p.title + ": " + c.label);
-    bindPreview(a, c, v, dur, bar.firstChild);
-    a.addEventListener("click", (e) => { e.preventDefault(); requestOpen(p, ci, media); });
     tilesBySrc.set(p.slug + "~" + ci, media);
-    return a;
+    return { media, v, dur, bar: bar.firstChild, c };
+  }
+  function wire(a, p, ci, m) {
+    a.href = "#" + p.slug + (ci ? "-" + (ci + 1) : "");
+    bindPreview(a, m.c, m.v, m.dur, m.bar);
+    a.addEventListener("click", (e) => { e.preventDefault(); requestOpen(p, ci, m.media); });
   }
 
-  /* Lead project */
-  const lead = work.find((p) => p.lead);
-  const leadEl = $(".js-lead");
-  const lc = el("div", "lp-copy");
-  lc.appendChild(el("p", "kicker", lead.kicker));
-  const lh = el("h3", "", lead.title); lh.id = "lead-title"; lc.appendChild(lh);
-  lc.appendChild(el("p", "body", "Seventeen Shorts for the MonsterBiker rebrand: a new look built on word-by-word captions, speaker labels and callouts, kept consistent with an After Effects toolkit I built."));
-  const ls = el("dl", "lp-stats");
-  [["3.4M", "views"], ["2.5M", "views"], ["17", "Shorts"]].forEach(([n, t]) => { const d = el("div"); d.append(el("dt", "", t), el("dd", "", n)); ls.appendChild(d); });
-  lc.appendChild(ls);
-  const lclips = el("div", "lp-clips");
-  lead.clips.forEach((c, i) => { const t = makeTile(lead, i, { badge: c.badge, badgeSoft: !c.url, noRatio: true }); t.appendChild(el("span", "tile-label", c.label)); lclips.appendChild(t); });
-  leadEl.append(lc, lclips);
-
-  /* Bento grid */
-  const grid = $(".js-grid");
-  featuredP.filter((p) => !p.lead).forEach((p, i) => {
-    const t = makeTile(p, 0, { cls: "proj" + (i < 2 ? " big" : ""), badge: p.clips.length + " edits", badgeSoft: true, noRatio: true });
-    const meta = el("div", "proj-meta");
-    meta.append(el("span", "proj-kicker", p.kicker), el("span", "proj-title", p.title), el("span", "proj-line", p.blurb));
-    t.appendChild(meta);
-    grid.appendChild(t);
+  /* Project carousel */
+  const track = $(".js-track");
+  featuredP.forEach((p) => {
+    const a = el("a", "card"); a.setAttribute("role", "listitem");
+    const m = makeMedia(p, 0, { badge: p.cardBadge || (p.clips.length + " edits"), badgeSoft: !p.cardBadge });
+    a.append(m.media, el("span", "kick", p.kicker), el("h3", "", p.title.replace(" — ", " · ")), el("p", "", p.blurb));
+    const go = el("span", "go"); go.textContent = "Watch " + p.clips.length + (p.clips.length > 1 ? " edits" : " edit") + " →"; a.appendChild(go);
+    a.setAttribute("aria-label", p.title + ", " + p.clips.length + " edits");
+    wire(a, p, 0, m);
+    track.appendChild(a);
   });
+  const prevC = $(".js-prev-car"), nextC = $(".js-next-car");
+  const stepW = () => { const c = track.querySelector(".card"); return c ? c.getBoundingClientRect().width + 18 : 300; };
+  const behavior = () => (reducedMotion.matches ? "auto" : "smooth");
+  prevC.addEventListener("click", () => track.scrollBy({ left: -stepW(), behavior: behavior() }));
+  nextC.addEventListener("click", () => track.scrollBy({ left: stepW(), behavior: behavior() }));
+  function syncCar() { prevC.disabled = track.scrollLeft < 4; nextC.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 4; }
+  track.addEventListener("scroll", syncCar, { passive: true }); addEventListener("resize", syncCar); syncCar();
+  track.addEventListener("keydown", (e) => { if (e.target !== track) return; if (e.key === "ArrowRight") { e.preventDefault(); nextC.click(); } if (e.key === "ArrowLeft") { e.preventDefault(); prevC.click(); } });
 
-  /* Archive (hidden until opened) */
+  /* Archive */
   const arch = $(".js-archive");
   archiveP.forEach((p) => {
-    const row = el("div", "arow");
-    const copy = el("div", "arow-copy");
-    copy.append(el("span", "proj-kicker", p.kicker), el("h3", "", p.title), el("p", "", p.blurb));
+    const row = el("div", "arow"), copy = el("div", "arow-copy");
+    copy.append(el("span", "kick", p.kicker), el("h3", "", p.title), el("p", "", p.blurb));
     const strip = el("div", "strip");
-    p.clips.forEach((c, i) => { const t = makeTile(p, i, {}); t.appendChild(el("span", "tile-label", c.label)); strip.appendChild(t); });
-    row.append(copy, strip);
-    arch.appendChild(row);
+    p.clips.forEach((c, i) => { const a = el("a", "tile"); const m = makeMedia(p, i, { ratio: true }); a.append(m.media, el("span", "tile-label", c.label)); a.setAttribute("aria-label", "Play " + p.title + ": " + c.label); wire(a, p, i, m); strip.appendChild(a); });
+    row.append(copy, strip); arch.appendChild(row);
   });
 
   function bindPreview(card, c, v, durChip, barFill) {
@@ -804,34 +896,33 @@ const PROJECTS = [
   }
   const stopAllPreviews = () => previewStops.forEach((s) => s());
 
-  /* Hero */
+  /* Reel phone */
   const heroP = bySlug(SITE.hero.project);
   const heroVideo = $(".js-hero-video"), heroPoster = $(".js-hero-poster");
   const heroTc = $(".js-hero-tc"), heroBar = $(".js-hero-bar");
   const stage = $("#stage"), scene = $("#phoneScene"), phoneEl = $(".js-phone"), phoneEnter = $(".js-phone-enter");
-  const shadowEl = $(".js-shadow"), ambient = $(".js-ambient"), heroSection = $(".hero");
+  const shadowEl = $(".js-shadow"), ambient = $(".js-ambient"), reelSec = $("#reel");
   const dlg = $("#player");
   heroPoster.src = SITE.hero.poster;
   const autoplayAllowed = !reducedMotion.matches && !saveData;
-  if (autoplayAllowed) { heroVideo.src = SITE.hero.teaser; heroVideo.preload = "auto"; }
-  let heroRaf = 0;
+  let heroRaf = 0, phoneReady = false, phoneVisible = false;
   function heroTick() { if (heroVideo.duration) { heroTc.textContent = timecode(heroVideo.currentTime); heroBar.style.transform = "scaleX(" + heroVideo.currentTime / heroVideo.duration + ")"; } heroRaf = requestAnimationFrame(heroTick); }
   heroVideo.addEventListener("play", () => { cancelAnimationFrame(heroRaf); heroTick(); });
   heroVideo.addEventListener("pause", () => cancelAnimationFrame(heroRaf));
-  let revealDone = false;
-  function startHero() { if (!autoplayAllowed || dlg.open || !revealDone) return; heroVideo.muted = true; const p = heroVideo.play(); if (p && p.catch) p.catch(() => {}); }
-
+  function startHero() {
+    if (!autoplayAllowed || dlg.open || !phoneReady || !phoneVisible) return;
+    if (!heroVideo.getAttribute("src")) heroVideo.src = SITE.hero.teaser;
+    heroVideo.muted = true; const p = heroVideo.play(); if (p && p.catch) p.catch(() => {});
+  }
   const actx = ambient.getContext("2d");
   function paintAmbient(src) { try { actx.drawImage(src, 0, 0, ambient.width, ambient.height); } catch (e) {} }
   if (heroPoster.complete && heroPoster.naturalWidth) paintAmbient(heroPoster); else heroPoster.addEventListener("load", () => paintAmbient(heroPoster), { once: true });
-
-  /* Phone sits centred and faces the viewer, with a gentle float and cursor tilt */
-  const BASE = { rx: 4, ry: 0, rz: 0 }, TAU = Math.PI * 2;
-  let targetX = 0, targetY = 0, curX = 0, curY = 0, engineRaf = 0, heroVisible = true, lastAmbient = 0;
+  const BASE = { rx: 4 }, TAU = Math.PI * 2;
+  let targetX = 0, targetY = 0, curX = 0, curY = 0, engineRaf = 0, lastAmbient = 0;
   const t0 = performance.now();
   function pose(rx, ry, rz, y) {
     phoneEl.style.transform = "translate3d(0," + y.toFixed(2) + "px,0) rotateX(" + rx.toFixed(2) + "deg) rotateY(" + ry.toFixed(2) + "deg) rotateZ(" + rz.toFixed(2) + "deg)";
-    phoneEl.style.setProperty("--shine", Math.max(-1, Math.min(1, (ry - BASE.ry) / 14)).toFixed(3));
+    phoneEl.style.setProperty("--shine", Math.max(-1, Math.min(1, ry / 14)).toFixed(3));
     const lift = (8 - y) / 16;
     shadowEl.style.setProperty("--sh", (1.04 - lift * .16).toFixed(3));
     shadowEl.style.setProperty("--sho", (.95 - lift * .35).toFixed(3));
@@ -841,36 +932,32 @@ const PROJECTS = [
     if (dlg.open) return;
     const t = (now - t0) / 1000;
     curX += (targetX - curX) * .06; curY += (targetY - curY) * .06;
-    pose(BASE.rx - curY * 7 + Math.cos(t * TAU / 7) * 1, BASE.ry + curX * 14 + Math.sin(t * TAU / 9) * 3, Math.sin(t * TAU / 11) * .6, -Math.sin(t * TAU / 6) * 8);
+    pose(BASE.rx - curY * 7 + Math.cos(t * TAU / 7), curX * 14 + Math.sin(t * TAU / 9) * 3, Math.sin(t * TAU / 11) * .6, -Math.sin(t * TAU / 6) * 8);
     if (!heroVideo.paused && now - lastAmbient > 120) { paintAmbient(heroVideo); lastAmbient = now; }
   }
-  function engineStart() { if (reducedMotion.matches || engineRaf || !heroVisible || document.hidden) return; engineRaf = requestAnimationFrame(engine); }
+  function engineStart() { if (reducedMotion.matches || engineRaf || !phoneVisible || document.hidden) return; engineRaf = requestAnimationFrame(engine); }
   function engineStop() { cancelAnimationFrame(engineRaf); engineRaf = 0; }
-  pose(BASE.rx, BASE.ry, BASE.rz, 0);
-  if ("IntersectionObserver" in window) {
-    const heroObs = new IntersectionObserver((en) => { heroVisible = en[0].isIntersecting; if (heroVisible) { engineStart(); startHero(); } else { engineStop(); heroVideo.pause(); } });
-    heroObs.observe(scene);
-  }
+  pose(BASE.rx, 0, 0, 0);
   document.addEventListener("visibilitychange", () => (document.hidden ? engineStop() : engineStart()));
-  if (reducedMotion.addEventListener) reducedMotion.addEventListener("change", () => { if (reducedMotion.matches) { engineStop(); pose(BASE.rx, BASE.ry, BASE.rz, 0); heroVideo.pause(); } else engineStart(); });
-  heroSection.addEventListener("pointermove", (e) => {
+  if (reducedMotion.addEventListener) reducedMotion.addEventListener("change", () => { if (reducedMotion.matches) { engineStop(); pose(BASE.rx, 0, 0, 0); heroVideo.pause(); } else engineStart(); });
+  reelSec.addEventListener("pointermove", (e) => {
     if (e.pointerType !== "mouse" || !canHover.matches) return;
     const r = scene.getBoundingClientRect();
     targetX = Math.max(-1, Math.min(1, (e.clientX - (r.left + r.width / 2)) / (innerWidth * .45)));
     targetY = Math.max(-1, Math.min(1, (e.clientY - (r.top + r.height / 2)) / (innerHeight * .5)));
   });
-  heroSection.addEventListener("pointerleave", () => { targetX = 0; targetY = 0; });
-  engineStart();
+  reelSec.addEventListener("pointerleave", () => { targetX = 0; targetY = 0; });
 
-  /* Motion detail 1: the phone rises from below into the centre, then a playhead switches the screen on */
-  function runReveal() {
-    const root = document.documentElement;
-    if (!root.classList.contains("reveal-pending")) { revealDone = true; startHero(); return; }
-    try { sessionStorage.setItem("ljp-reveal-3", "1"); } catch (e) {}
+  /* Motion detail 1: the phone rises into the centre when the reel section comes into view */
+  const root = document.documentElement;
+  const animatePhone = root.classList.contains("reveal-pending");
+  if (animatePhone) reelSec.classList.add("phone-pending");
+  function riseIn() {
+    if (!reelSec.classList.contains("phone-pending")) { phoneReady = true; startHero(); return; }
+    reelSec.classList.remove("phone-pending");
     const small = isPhone(), rise = small ? 1000 : 1250, sweepDelay = small ? 820 : 1000, sweep = small ? 480 : 620;
-    $$(".rise").forEach((n, i) => n.animate([{ opacity: 0, transform: "translateY(16px)" }, { opacity: 1, transform: "none" }], { duration: 500, delay: 80 + i * 70, easing: EASE_OUT, fill: "both" }));
     const sceneAnim = scene.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 300, fill: "both" });
-    const from = Math.round(innerHeight * .75);
+    const from = Math.round(innerHeight * .7);
     const enterAnim = phoneEnter.animate([
       { transform: "translate3d(0," + from + "px,-60px) rotateX(-28deg) rotateZ(-6deg)" },
       { transform: "translate3d(0,-14px,0) rotateX(4deg) rotateZ(.8deg)", offset: .78 },
@@ -881,21 +968,34 @@ const PROJECTS = [
     const ambAnim = ambient.animate([{ opacity: 0 }, { opacity: .55 }], { duration: 800, delay: sweepDelay, fill: "both" });
     const ph = $(".playhead"), phTc = $(".js-ph-tc");
     const phAnim = ph.animate([{ left: "0%", opacity: 1 }, { left: "100%", opacity: 1 }], { duration: sweep, delay: sweepDelay, easing: EASE_SWEEP, fill: "both" });
-    root.classList.remove("reveal-pending");
     const ts = performance.now() + sweepDelay;
-    (function tick(now) {
-      const elapsed = Math.max(0, now - ts);
-      phTc.textContent = timecode(Math.min(elapsed, sweep) / 1000);
-      ph.classList.toggle("flip", parseFloat(getComputedStyle(ph).left) / ph.parentElement.clientWidth > .55);
-      if (elapsed < sweep) requestAnimationFrame(tick);
-    })(performance.now());
+    (function tick(now) { const elapsed = Math.max(0, now - ts); phTc.textContent = timecode(Math.min(elapsed, sweep) / 1000); ph.classList.toggle("flip", parseFloat(getComputedStyle(ph).left) / ph.parentElement.clientWidth > .55); if (elapsed < sweep) requestAnimationFrame(tick); })(performance.now());
     enterAnim.finished.then(() => { enterAnim.cancel(); sceneAnim.cancel(); }).catch(() => {});
     phAnim.finished.then(() => {
       ph.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 200, fill: "forwards" });
-      revealDone = true; setTimeout(startHero, 120);
+      phoneReady = true; setTimeout(startHero, 120);
       sweepAnim.cancel();
       ambAnim.finished.then(() => ambAnim.cancel()).catch(() => {});
-    }).catch(() => { revealDone = true; startHero(); });
+    }).catch(() => { phoneReady = true; startHero(); });
+  }
+  if ("IntersectionObserver" in window) {
+    const riseObs = new IntersectionObserver((en) => {
+      phoneVisible = en[0].isIntersecting;
+      if (phoneVisible) { if (!phoneReady) riseIn(); engineStart(); startHero(); } else { engineStop(); heroVideo.pause(); }
+    }, { threshold: 0.3 });
+    riseObs.observe(scene);
+  } else { phoneVisible = true; riseIn(); engineStart(); }
+
+  /* Hero intro: portrait settles, text rises */
+  if (root.classList.contains("reveal-pending")) {
+    try { sessionStorage.setItem("ljp-reveal-5", "1"); } catch (e) {}
+    const photo = $(".js-hero-photo");
+    const go = () => {
+      photo.animate([{ opacity: 0, transform: "scale(1.06)" }, { opacity: 1, transform: "none" }], { duration: 1600, easing: EASE_OUT, fill: "both" });
+      $$(".hero .rise").forEach((n, i) => n.animate([{ opacity: 0, transform: "translateY(18px)" }, { opacity: 1, transform: "none" }], { duration: 650, delay: 350 + i * 90, easing: EASE_OUT, fill: "both" }));
+      root.classList.remove("reveal-pending");
+    };
+    if (photo.complete) go(); else { photo.addEventListener("load", go, { once: true }); setTimeout(() => { if (root.classList.contains("reveal-pending")) go(); }, 1200); }
   }
 
   /* Player */
@@ -904,18 +1004,15 @@ const PROJECTS = [
   function fillPlayer(p, i) {
     curP = p; curI = i;
     const c = p.clips[i];
-    pbox.style.setProperty("--ar", arCss(c.ratio));
-    pbox.style.setProperty("--arn", arNum(c.ratio));
+    pbox.style.setProperty("--ar", arCss(c.ratio)); pbox.style.setProperty("--arn", arNum(c.ratio));
     pv.poster = c.poster; pv.src = c.src;
     $(".js-pkicker").textContent = p.kicker;
     $("#ptitle").textContent = p.title;
     $(".js-pclip").textContent = c.label + " · " + c.ratio + " · " + c.dur;
     $(".js-pproof").hidden = !c.url;
     if (c.url) { $(".js-plink").href = c.url; $(".js-plink").textContent = c.proof + " ↗"; }
-    $(".js-pabout").textContent = p.about || "";
-    $(".js-pabout-wrap").hidden = !p.about;
-    $(".js-prole").textContent = p.role;
-    $(".js-ptools").textContent = p.tools;
+    $(".js-pabout").textContent = p.about || ""; $(".js-pabout-wrap").hidden = !p.about;
+    $(".js-prole").textContent = p.role; $(".js-ptools").textContent = p.tools;
     const cuts = $(".js-cuts"); cuts.textContent = "";
     $(".js-pcuts-wrap").hidden = p.clips.length < 2;
     p.clips.forEach((cc, j) => {
@@ -931,7 +1028,7 @@ const PROJECTS = [
   }
   function playWithSound() { pv.muted = false; const pr = pv.play(); if (pr && pr.catch) pr.catch(() => pbox.classList.add("needs-tap")); }
   $(".js-pplay").addEventListener("click", () => { pbox.classList.remove("needs-tap"); playWithSound(); });
-  function rectOf(n) { if (!n) return null; const r = n.getBoundingClientRect(); return r.width > 0 && r.bottom > 0 && r.top < innerHeight ? r : null; }
+  function rectOf(n) { if (!n) return null; const r = n.getBoundingClientRect(); return r.width > 0 && r.bottom > 0 && r.top < innerHeight && r.right > 0 && r.left < innerWidth ? r : null; }
   const box = (r) => ({ left: r.left + "px", top: r.top + "px", width: r.width + "px", height: r.height + "px" });
   function makeGhost(src, r) { const g = el("div", "ghost"); const i = el("img"); i.src = src; i.alt = ""; g.appendChild(i); Object.assign(g.style, box(r)); dlg.appendChild(g); return g; }
   function openPlayer(p, i, fromEl, animate) {
@@ -939,14 +1036,12 @@ const PROJECTS = [
     originEl = fromEl || tilesBySrc.get(p.slug + "~" + i) || tilesBySrc.get(p.slug + "~0");
     fillPlayer(p, i);
     const from = rectOf(fromEl);
-    dlg.showModal();
-    document.documentElement.classList.add("player-open");
-    dlg.scrollTop = 0;
+    dlg.showModal(); root.classList.add("player-open"); dlg.scrollTop = 0;
     if (!animate || !from || reducedMotion.matches) { dlg.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 150 }); playWithSound(); return; }
     const dur = isPhone() ? 320 : 380, to = pbox.getBoundingClientRect();
     pbox.style.visibility = "hidden";
     const ghost = makeGhost(p.clips[i].poster, from);
-    ghost.animate([Object.assign(box(from), { borderRadius: "14px" }), Object.assign(box(to), { borderRadius: isPhone() ? "0px" : "14px" })], { duration: dur, easing: EASE_OUT, fill: "forwards" });
+    ghost.animate([Object.assign(box(from), { borderRadius: "18px" }), Object.assign(box(to), { borderRadius: isPhone() ? "0px" : "14px" })], { duration: dur, easing: EASE_OUT, fill: "forwards" });
     scrim.animate([{ opacity: 0 }, { opacity: 1 }], { duration: dur });
     pclose.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 200, delay: dur - 80, fill: "backwards" });
     pdetails.animate([{ opacity: 0, transform: "translateX(16px)" }, { opacity: 1, transform: "none" }], { duration: 200, delay: dur - 80, easing: EASE_OUT, fill: "backwards" });
@@ -957,11 +1052,11 @@ const PROJECTS = [
     if (!dlg.open || closing) return;
     closing = true; pv.pause();
     const done = () => {
-      dlg.close(); document.documentElement.classList.remove("player-open");
+      dlg.close(); root.classList.remove("player-open");
       pbox.style.visibility = ""; $$(".ghost", dlg).forEach((g) => g.remove());
       pv.removeAttribute("src"); pv.load();
       closing = false; pushed = false;
-      const ft = originEl && (originEl.closest(".tile") || $(".stage-open"));
+      const ft = originEl && (originEl.closest(".card, .tile") || $(".stage-open"));
       if (ft) ft.focus({ preventScroll: true });
       curP = null; startHero();
     };
@@ -970,7 +1065,7 @@ const PROJECTS = [
     const from = pbox.getBoundingClientRect();
     pbox.style.visibility = "hidden";
     const ghost = makeGhost(curP.clips[curI].poster, from);
-    ghost.animate([box(from), Object.assign(box(to), { borderRadius: "14px" })], { duration: 280, easing: EASE_OUT, fill: "forwards" });
+    ghost.animate([box(from), Object.assign(box(to), { borderRadius: "18px" })], { duration: 280, easing: EASE_OUT, fill: "forwards" });
     scrim.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 280, fill: "forwards" });
     [pdetails, pclose].forEach((n) => n.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 120, fill: "forwards" }));
     setTimeout(() => { done(); [scrim, pdetails, pclose].forEach((n) => n.getAnimations().forEach((a) => a.cancel())); }, 280);
@@ -979,8 +1074,7 @@ const PROJECTS = [
     const fade = reducedMotion.matches ? 0 : 150;
     pv.pause();
     const out = [pbox, pdetails].map((n) => n.animate([{ opacity: 1 }, { opacity: 0 }], { duration: fade, fill: "forwards" }));
-    fillPlayer(p, i);
-    playWithSound();
+    fillPlayer(p, i); playWithSound();
     Promise.all(out.map((a) => a.finished)).then(() => {
       originEl = tilesBySrc.get(p.slug + "~" + i) || tilesBySrc.get(p.slug + "~0");
       out.forEach((a) => a.cancel());
@@ -994,21 +1088,15 @@ const PROJECTS = [
     const m = h.match(/^(.*)-(\d+)$/);
     if (!p && m && bySlug(m[1])) { p = bySlug(m[1]); i = parseInt(m[2], 10) - 1; }
     if (!p) return null;
-    i = Math.min(Math.max(i, 0), p.clips.length - 1);
-    return { p, i };
+    return { p, i: Math.min(Math.max(i, 0), p.clips.length - 1) };
   }
   function requestOpen(p, i, fromEl) {
     pendingOrigin = fromEl;
     const target = "#" + p.slug + (i ? "-" + (i + 1) : "");
     if (location.hash === target) { syncFromHash(); return; }
-    pushed = true;
-    location.hash = target.slice(1);
+    pushed = true; location.hash = target.slice(1);
   }
-  function requestClose() {
-    if (pushed) { history.back(); return; }
-    history.replaceState(null, "", location.pathname + location.search);
-    closePlayer();
-  }
+  function requestClose() { if (pushed) { history.back(); return; } history.replaceState(null, "", location.pathname + location.search); closePlayer(); }
   function syncFromHash() {
     const r = parseHash();
     if (r) {
@@ -1032,7 +1120,6 @@ const PROJECTS = [
   dlg.addEventListener("touchmove", (e) => { if (touchY === null) return; dragDy = e.touches[0].clientY - touchY; if (dragDy > 0) pinner.style.transform = "translateY(" + dragDy * .6 + "px)"; }, { passive: true });
   dlg.addEventListener("touchend", () => { if (touchY === null) return; const dy = dragDy; touchY = null; pinner.style.transform = ""; if (dy > 90) requestClose(); });
 
-  runReveal();
   if (location.hash) syncFromHash();
 })();
 </script>
